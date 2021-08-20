@@ -76,7 +76,6 @@ document.getElementById("button-promo").addEventListener("click", () => {
 
   if (promoCodeValue == "stevekaku") {
     let previousCosting = totalCosting();
-    console.log(previousCosting);
     let discount = (previousCosting * 20) / 100;
 
     let newCostingUsingPromo = previousCosting - discount;
